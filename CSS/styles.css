@@ -5,9 +5,13 @@ p{
   font-size: 16px;
 }
 
-h{
+h1{
   font-family: "Spectral", serif;
-  font-size: 46px;
+  font-size: 42px;
+}
+h2{
+  font-family: "Spectral", serif;
+  font-size: 36px;
 }
 
 *{
@@ -20,13 +24,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.logoimg{
-  height: 200px;
-  position: aboslute;
-  top: 0;
-  left: 0;
+  opacity: 0.85;
 }
 
 /* homepage style */
@@ -40,25 +38,38 @@ html {
   text-shadow:rgb(31, 31, 31);
 }
 
+.ingredients{
+
+    list-style-type: none;
+    border-top: solid;
+    border-bottom: solid;
+  }
+
 
 /* navbar style */
 
+.navcontainer {
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
+}
 .topnav {
     list-style-type:none;
     position: relative;
+  
 }
-
+.logo{
+  float: left;
+}
 .topnav a{
     float: right;
-    display: block;
-    color:  antiquewhite;;
+    color:  antiquewhite;
     text-align: center;
     font-family: "Rubik", sans-serif;
-    font-size: 16px;
     padding: 16px 50px;
     text-decoration: none;
+    margin-top: 2%;
 }
-
 .topnav a:hover{
     background-color: rgb(153, 150, 150);
     color: black;

@@ -9,6 +9,7 @@ h1{
   font-family: "Spectral", serif;
   font-size: 42px;
 }
+
 h2{
   font-family: "Spectral", serif;
   font-size: 36px;
@@ -17,6 +18,8 @@ h2{
 *{
   overflow: auto;
 }
+
+
 
 html { 
   background: url("/images/background-img-sergi.jpg") no-repeat center center fixed; 
@@ -29,11 +32,10 @@ html {
 
 /* homepage style */
 
-
 .main{
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: auto;
   color: antiquewhite;
   text-shadow:rgb(31, 31, 31);
 }
@@ -43,6 +45,7 @@ html {
     list-style-type: none;
     border-top: solid;
     border-bottom: solid;
+    font-family: "Rubik", sans-serif;
   }
 
 

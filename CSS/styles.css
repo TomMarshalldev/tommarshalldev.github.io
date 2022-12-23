@@ -1,0 +1,76 @@
+/* global style */
+
+p{
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+h1{
+  font-family: "Spectral", serif;
+  font-size: 42px;
+}
+h2{
+  font-family: "Spectral", serif;
+  font-size: 36px;
+}
+
+*{
+  overflow: auto;
+}
+
+html { 
+  background: url("/images/background-img-sergi.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.85;
+}
+
+/* homepage style */
+
+
+.main{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  color: antiquewhite;
+  text-shadow:rgb(31, 31, 31);
+}
+
+.ingredients{
+
+    list-style-type: none;
+    border-top: solid;
+    border-bottom: solid;
+  }
+
+
+/* navbar style */
+
+.navcontainer {
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
+}
+.topnav {
+    list-style-type:none;
+    position: relative;
+  
+}
+.logo{
+  float: left;
+}
+.topnav a{
+    float: right;
+    color:  antiquewhite;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    padding: 16px 50px;
+    text-decoration: none;
+    margin-top: 2%;
+}
+.topnav a:hover{
+    background-color: rgb(153, 150, 150);
+    color: black;
+}
